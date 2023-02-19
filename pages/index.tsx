@@ -1,5 +1,5 @@
-import Content from "@/components/content/content";
-import Search from "@/components/search/search";
+import PageContent from "@/components/content";
+import Footer from "@/components/footer/footer";
 import { getDefinitionServerSIde } from "@/services/dictionary-api";
 import { DictonaryResponse } from "@/services/types";
 import type { GetServerSideProps, NextPage } from "next";
@@ -10,10 +10,13 @@ type Props = {
 
 const Home: NextPage<Props> = ({ data }) => {
   return (
-    <main className="w-4/5 m-auto my-[30px]">
-      <Search />
-      <Content data={data} />
-    </main>
+    <>
+      <main className="w-4/5 m-auto my-[30px]">
+        <PageContent data={data} />
+      </main>
+      {/* FOOTER */}
+      <Footer data={data} />
+    </>
   );
 };
 

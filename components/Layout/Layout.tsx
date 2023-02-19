@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { ReactNode } from "react";
-import Footer from "../footer/footer";
 import Header from "../header/header";
 
 type Props = {
@@ -29,8 +28,6 @@ const Layout: NextPage<Props> = ({ children }) => {
       <Header />
       {/* PAGE CONTENTS */}
       <div>{children}</div>
-      <Footer />
-      {/* FOOTER */}
     </>
   );
 };

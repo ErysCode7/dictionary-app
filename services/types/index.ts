@@ -7,6 +7,12 @@ export type DictonaryResponse = {
   sourceUrls: string[];
 };
 
+export type ErrorDictonaryResponse = {
+  message: string;
+  resolution: string;
+  title: string;
+};
+
 type Meaning = {
   partOfSpeech: string;
   definitions: Definition[];

@@ -18,7 +18,7 @@ const Header: NextPage = (props: Props) => {
 
   return (
     <header className="h-24 shadow-sm bg-white dark:bg-[#1e1c1c]">
-      <div className="flex items-center justify-between w-[85%] m-auto h-full">
+      <div className="flex items-center justify-between w-4/5 m-auto h-full">
         <div className="flex items-center gap-2">
           <BiBook className="font-bold text-xl md:text-2xl lg:text-4xl" />
           <h1 className="font-bold text-xl md:text-2xl lg:text-4xl">

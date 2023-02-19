@@ -11,10 +11,14 @@ const Footer: NextPage<Props> = ({ data }) => {
   return (
     <footer
       className={`${
-        Array.isArray(data) ? "absolute" : ""
-      } bottom-0 left-0 right-0 py-[30px]`}
+        Array.isArray(data) === false ? "absolute" : "static"
+      } bottom-0 left-0 right-0 py-[30px] mt-[30px]`}
     >
-      <div className="w-4/5 m-auto sm:flex items-center justify-between">
+      <div
+        className={`${
+          Array.isArray(data) === false ? "w-[85%]" : ""
+        } m-auto sm:flex items-center justify-between`}
+      >
         <h2 className="mb-2 sm:mb-0">
           Copyright © Dictionary App {yearNow}. All rights reserved
         </h2>

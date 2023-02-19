@@ -11,7 +11,7 @@ Dictioanry App is web application that provides users with access to a dictionar
 
 ### Screenshot
 
-![](./screenshots/dictionary.JPG.JPG)
+![](./screenshots/dictionary.JPG)
 
 ### Links
 

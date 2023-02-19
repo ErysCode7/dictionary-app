@@ -1,38 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Realtor
 
-## Getting Started
+Dictioanry App is web application that provides users with access to a dictionary, which is a reference book containing an alphabetical list of words, their definitions, and sometimes other information such as pronunciation, origin, and usage examples. Dictionary apps can be used to look up the meanings of words, find synonyms and antonyms, learn new vocabulary, and improve language skills..
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Screenshot
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+![](./screenshots/dictionary.JPG.JPG)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Links
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Solution URL: [https://github.com/ErysCode7/dictionary-app](https://github.com/ErysCode7/dictionary-app)
+- Live Site URL: [https://dictionary-app-sandy.vercel.app/](https://dictionary-app-sandy.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repo
 
-## Learn More
+   ```sh
+   git clone git@github.com:ErysCode7/dictionary-app.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install NPM packages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```sh
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Run app
 
-## Deploy on Vercel
+   ```sh
+   npm start
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Built with
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js](https://nextjs.org/) - JS library
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript with syntax for types
+- [TailwindCSS](https://tailwindcss.com/) - CSS Framework
+- [Dictionary API](https://dictionaryapi.dev/) - Dictionary API
+
+## Author
+
+- Facebook - [Erys Mozo](https://web.facebook.com/erys.mozo/)
+- Instagram - [\_erysmozo](https://www.instagram.com/_erysmozo/)
+- Frontend Mentor - [ErysCode7](https://www.frontendmentor.io/profile/ErysCode7)
+- LinkedIn - [Erys Mozo](https://www.linkedin.com/in/erys-mozo-280190230/)
